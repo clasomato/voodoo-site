@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000312}}
+.row {
+  margin-bottom: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\000035}}
+  .row::after {
+    clear: both;
+    display: block;
+    content: ''; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000318}}
+.col {
+  float: left;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000325}}
+.col1 {
+  width: 8.3333333333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000325}}
+.col2 {
+  width: 16.6666666667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000325}}
+.col3 {
+  width: 25%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000325}}
+.col4 {
+  width: 33.3333333333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000325}}
+.col5 {
+  width: 41.6666666667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000325}}
+.col6 {
+  width: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000325}}
+.col7 {
+  width: 58.3333333333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000325}}
+.col8 {
+  width: 66.6666666667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000325}}
+.col9 {
+  width: 75%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000325}}
+.col10 {
+  width: 83.3333333333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000325}}
+.col11 {
+  width: 91.6666666667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000325}}
+.col12 {
+  width: 100%; }
+
+@media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000332}}
+  .colM1 {
+    width: 8.3333333333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000332}}
+  .colM2 {
+    width: 16.6666666667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000332}}
+  .colM3 {
+    width: 25%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000332}}
+  .colM4 {
+    width: 33.3333333333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000332}}
+  .colM5 {
+    width: 41.6666666667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000332}}
+  .colM6 {
+    width: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000332}}
+  .colM7 {
+    width: 58.3333333333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000332}}
+  .colM8 {
+    width: 66.6666666667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000332}}
+  .colM9 {
+    width: 75%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000332}}
+  .colM10 {
+    width: 83.3333333333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000332}}
+  .colM11 {
+    width: 91.6666666667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000332}}
+  .colM12 {
+    width: 100%; } }
+@media (min-width: 900px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000340}}
+  .colL1 {
+    width: 8.3333333333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000340}}
+  .colL2 {
+    width: 16.6666666667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000340}}
+  .colL3 {
+    width: 25%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000340}}
+  .colL4 {
+    width: 33.3333333333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000340}}
+  .colL5 {
+    width: 41.6666666667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000340}}
+  .colL6 {
+    width: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000340}}
+  .colL7 {
+    width: 58.3333333333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000340}}
+  .colL8 {
+    width: 66.6666666667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000340}}
+  .colL9 {
+    width: 75%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000340}}
+  .colL10 {
+    width: 83.3333333333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000340}}
+  .colL11 {
+    width: 91.6666666667%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_grid\.scss}line{font-family:\0000340}}
+  .colL12 {
+    width: 100%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\000031}}
+.navbar {
+  padding: 10px;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  -webkit-transition: background-color 0.25s;
+  transition: background-color 0.25s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000313}}
+.navContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000320}}
+.navLogo {
+  width: 150px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000324}}
+.navList {
+  display: none;
+  width: 100%;
+  text-align: center;
+  padding: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000330}}
+  .navList ul {
+    padding: 0px;
+    margin: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000336}}
+.listItem {
+  padding: 20px;
+  font-size: 20px;
+  list-style-type: none; }
+
+@media screen and (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000344}}
+  .navContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000348}}
+  .navIcon {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000352}}
+  .navList {
+    display: block !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000355}}
+    .navList ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000361}}
+  .listItem {
+    padding: 0 20px; } }
+@media screen and (min-width: 900px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000367}}
+  .navContainer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000371}}
+  .navList {
+    width: auto; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/styles\.scss}line{font-family:\000039}}
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/styles\.scss}line{font-family:\0000313}}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #2b2b2b;
+  font-family: 'Open Sans', sans-serif; }
+
+/*# sourceMappingURL=styles.css.map */
