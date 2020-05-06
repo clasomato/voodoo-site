@@ -33,7 +33,7 @@
         <section>
             <div class="headerImg">
                 <div class="splashOpacityLayer"></div>
-                <img src="media/logo2.png" alt="" width="60%">
+                <img src="media/logo2.png" alt="" width="90%">
 
                 <!-- Dropdown arrow -->
                 <a href="#"><i class="fas fa-chevron-down"></i></a>
@@ -49,7 +49,9 @@
 
         <!-- Social Media Feed -->
         <section>
-
+            <div class="container">
+                <div id="instagram-feed-demo" class="instagram_feed"></div>
+            </div>
         </section>
 
 
@@ -59,8 +61,31 @@
 
         </footer>
 
+
+        <script src="js/InstagramFeed.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://kit.fontawesome.com/2d2211742d.js" crossorigin="anonymous"></script>
         <script src="js/script.js" charset="utf-8"></script>
+
+
+        <script>
+            function insta(){
+                new InstagramFeed({
+                    'username': '@climo_studios',
+                    'container': "#instagram-feed-demo",
+                    'display_profile': true,
+                    'display_biography': true,
+                    'display_gallery': true,
+                    'display_igtv': false,
+
+                    'callback': function(data) {
+                      // ...
+                    }
+                });
+            };
+
+            insta();
+
+        </script>
     </body>
 </html>
