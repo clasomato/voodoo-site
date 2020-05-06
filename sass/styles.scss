@@ -2,6 +2,7 @@
 
 @import "grid";
 @import "nav";
+@import "header";
 
 
 
@@ -15,4 +16,10 @@ body {
     margin: 0;
     background-color: $pColour;
     font-family: 'Open Sans', sans-serif;
+}
+
+
+// Objects
+.container {
+    padding: 5% 10%;
 }
