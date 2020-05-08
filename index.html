@@ -11,7 +11,7 @@
             <nav id="nav" class="navbar">
                 <div class="container navContainer">
                     <div class="navLogo">
-                        <img id="headerImg" src="media/logo.png" alt="colab. logo" width="30%">
+                        <img id="headerImg" src="media/logo.png" alt="colab. logo">
                     </div>
 
                     <div id="navListButton" class="navIcon">
@@ -20,9 +20,9 @@
 
                     <div id="navList" class="navList">
                         <ul>
-                            <li class="listItem">Our Services</li>
-                            <li class="listItem">About Us</li>
-                            <li class="listItem">Contact Us</li>
+                            <li class="listItem">Shows</li>
+                            <li class="listItem">Blog</li>
+                            <li class="listItem">Merch</li>
                         </ul>
                     </div>
                 </div>
@@ -41,6 +41,21 @@
         </section>
 
 
+        <!-- Music Links -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col col6 soundIcon">
+                        <a href="#"><i class="fab fa-spotify"></i></a>
+                    </div>
+
+                    <div class="col col6 soundIcon">
+                        <a href="#"><i class="fab fa-itunes-note"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- upcoming shows -->
         <section>
 
@@ -50,7 +65,15 @@
         <!-- Social Media Feed -->
         <section>
             <div class="container">
-                <div id="instagram-feed-demo" class="instagram_feed"></div>
+                <div class="socialContainer">
+                    <img src="media/place.jpg" alt="" width="100%;">
+                    <a href="#">- Instagram -</a>
+                </div>
+
+                <div class="socialContainer">
+                    <img src="media/place.jpg" alt="" width="100%;">
+                    <a href="#">- Facebook -</a>
+                </div>
             </div>
         </section>
 
@@ -62,30 +85,15 @@
         </footer>
 
 
-        <script src="js/InstagramFeed.js"></script>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://kit.fontawesome.com/2d2211742d.js" crossorigin="anonymous"></script>
         <script src="js/script.js" charset="utf-8"></script>
 
 
-        <script>
-            function insta(){
-                new InstagramFeed({
-                    'username': '@climo_studios',
-                    'container': "#instagram-feed-demo",
-                    'display_profile': true,
-                    'display_biography': true,
-                    'display_gallery': true,
-                    'display_igtv': false,
+        <script src="js/instagramFeed.js"></script>
 
-                    'callback': function(data) {
-                      // ...
-                    }
-                });
-            };
 
-            insta();
 
-        </script>
     </body>
 </html>

@@ -187,40 +187,45 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000320}}
 .navLogo {
   width: 150px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000323}}
+  .navLogo img {
+    width: 30% !important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000328}}
 .navList {
   display: none;
   width: 100%;
   text-align: center;
-  padding: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000330}}
+  padding: 20px;
+  background-color: #242424;
+  z-index: 10000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000336}}
   .navList ul {
     padding: 0px;
     margin: 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000342}}
 .listItem {
   padding: 20px;
   font-size: 20px;
   list-style-type: none; }
 
 @media screen and (min-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000350}}
   .navContainer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000354}}
   .navIcon {
     display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000358}}
   .navList {
     display: block !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000361}}
     .navList ul {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -229,11 +234,11 @@
           -ms-flex-pack: center;
               justify-content: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000367}}
   .listItem {
     padding: 0 20px; } }
 @media screen and (min-width: 900px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000373}}
   .navContainer {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -242,7 +247,7 @@
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_nav\.scss}line{font-family:\0000377}}
   .navList {
     width: auto; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_header\.scss}line{font-family:\000031}}
@@ -264,7 +269,7 @@
           align-items: center; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_header\.scss}line{font-family:\0000312}}
   .headerImg img {
-    z-index: 10000; }
+    z-index: 100; }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_header\.scss}line{font-family:\0000316}}
   .headerImg a {
     position: absolute;
@@ -280,20 +285,70 @@
   height: 100vh;
   background-color: rgba(2, 2, 2, 0.5); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/styles\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_index\.scss}line{font-family:\000031}}
+.socialContainer {
+  text-align: center;
+  position: relative;
+  margin-bottom: 5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_index\.scss}line{font-family:\000036}}
+  .socialContainer a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    z-index: 10;
+    width: 100%;
+    padding-bottom: 2%;
+    color: white;
+    text-decoration: underline;
+    font-size: 1.8em;
+    background-color: #326964; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_index\.scss}line{font-family:\0000322}}
+.soundIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/_index\.scss}line{font-family:\0000327}}
+  .soundIcon a {
+    color: white;
+    font-size: 3em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/styles\.scss}line{font-family:\0000311}}
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/styles\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/styles\.scss}line{font-family:\0000315}}
 body {
   padding: 0;
   margin: 0;
-  background-color: #4f69ff;
+  background-color: #242424;
   font-family: 'Open Sans', sans-serif; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/styles\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/styles\.scss}line{font-family:\0000322}}
+img {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/styles\.scss}line{font-family:\0000327}}
 .container {
   padding: 5% 10%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/styles\.scss}line{font-family:\0000331}}
+.centerCenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 /*# sourceMappingURL=styles.css.map */
