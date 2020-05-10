@@ -4,9 +4,13 @@
 @import "nav";
 @import "header";
 @import "index";
+@import "footer";
+@import "slideshow";
 
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 * {
     box-sizing: border-box;
@@ -32,4 +36,12 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+// Desktop Optmization
+@media screen and (min-width:900px) {
+    .container {
+        padding: 0% 10%;
+    }
 }

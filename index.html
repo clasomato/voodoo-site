@@ -20,9 +20,10 @@
 
                     <div id="navList" class="navList">
                         <ul>
-                            <li class="listItem">Shows</li>
-                            <li class="listItem">Blog</li>
-                            <li class="listItem">Merch</li>
+                            <a href="#"><li class="listItem">Home</li></a>
+                            <a href="#"><li class="listItem">Shows</li></a>
+                            <a href="#"><li class="listItem">Blog</li></a>
+                            <a href="#"><li class="listItem">Merch</li></a>
                         </ul>
                     </div>
                 </div>
@@ -33,16 +34,47 @@
         <section>
             <div class="headerImg">
                 <div class="splashOpacityLayer"></div>
-                <img src="media/logo2.png" alt="" width="90%">
+                <!-- <img src="media/logo2.png" alt="" width="90%"> -->
+
+                <div class="splshSlideshowContainer">
+                    <!-- Slideshow container -->
+                    <div class="slideshow-container">
+
+                      <!-- Full-width images with number and caption text -->
+                      <div class="mySlides fade">
+                        <img src="media/logo2.png" style="width:100%">
+                      </div>
+
+                      <div class="mySlides fade">
+                        <img src="media/rory1.jpg" style="width:100%">
+                      </div>
+
+                      <!-- <div class="mySlides fade">
+                        <img src="media/rory2.jpg" style="width:100%">
+                      </div> -->
+
+                      <!-- Next and previous buttons -->
+                      <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                      <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+                    </div>
+                    <br>
+
+                    <!-- The dots/circles -->
+                    <!-- <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span>
+                      <span class="dot" onclick="currentSlide(2)"></span>
+                      <span class="dot" onclick="currentSlide(3)"></span>
+                    </div> -->
+                </div>
 
                 <!-- Dropdown arrow -->
-                <a href="#"><i class="fas fa-chevron-down"></i></a>
+                <a href="#warp1"><i class="fas fa-chevron-down"></i></a>
             </div>
         </section>
 
 
         <!-- Music Links -->
-        <section>
+        <section id="warp1">
             <div class="container">
                 <div class="row">
                     <div class="col col6 soundIcon">
@@ -65,22 +97,44 @@
         <!-- Social Media Feed -->
         <section>
             <div class="container">
-                <div class="socialContainer">
-                    <img src="media/place.jpg" alt="" width="100%;">
-                    <a href="#">- Instagram -</a>
-                </div>
+                <div class="row">
+                    <div class="col col12 colL6">
+                        <div class="socialContainer">
+                            <img src="media/place.jpg" alt="" width="100%;">
+                            <a href="https://www.instagram.com/whoisvoodoobloo/" target="_blank">- Instagram -</a>
+                        </div>
+                    </div>
 
-                <div class="socialContainer">
-                    <img src="media/place.jpg" alt="" width="100%;">
-                    <a href="#">- Facebook -</a>
-                </div>
+
+                    <div class="col col12 colL6">
+                        <div class="socialContainer">
+                            <img src="media/place.jpg" alt="" width="100%;">
+                            <a href="https://www.facebook.com/voodoobloo" target="_blank">- Facebook -</a>
+                        </div>
+                    </div>
+
+
+
             </div>
+        </div>
         </section>
 
 
 
 
-        <footer>
+        <footer class="footer">
+            <div class="footerText">
+                <p>&copy; Voodoo Bloo 2020</p>
+            </div>
+
+            <div class="footerNav">
+                <ul>
+                    <a href="#"><li class="listItem">Home</li></a>
+                    <a href="#"><li class="listItem">Shows</li></a>
+                    <a href="#"><li class="listItem">Blog</li></a>
+                    <a href="#"><li class="listItem">Merch</li></a>
+                </ul>
+            </div>
 
         </footer>
 
@@ -90,7 +144,7 @@
         <script src="https://kit.fontawesome.com/2d2211742d.js" crossorigin="anonymous"></script>
         <script src="js/script.js" charset="utf-8"></script>
 
-
+        <!-- Plugins -->
         <script src="js/instagramFeed.js"></script>
 
 
