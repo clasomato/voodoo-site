@@ -1,4 +1,13 @@
+.footer {
+    background-color: $sColour;
+}
 
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 0.8em;
+}
 
 
 
@@ -12,6 +21,9 @@
     .footerText {
         color: white;
         padding-left: 10%;
+        width: 40%;
+        font-size: 1.4em;
+
     }
 
 
