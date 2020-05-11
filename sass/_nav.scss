@@ -34,7 +34,7 @@
     width: 100%;
     text-align: center;
     padding: 20px;
-    // background-color: $pColour;
+    background-color: $pColour;
     z-index: 10000;
 
     ul {
@@ -80,6 +80,7 @@
         padding: 0;    }
     .navList {
         width: auto;
+        background-color: rgba(0, 0, 0, 0);
 
         a {
             text-decoration: none;

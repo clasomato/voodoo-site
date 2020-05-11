@@ -148,6 +148,7 @@
   width: 100%;
   text-align: center;
   padding: 20px;
+  background-color: #242424;
   z-index: 10000; }
   .navList ul {
     padding: 0px;
@@ -180,7 +181,8 @@
     padding: 0; }
 
   .navList {
-    width: auto; }
+    width: auto;
+    background-color: rgba(0, 0, 0, 0); }
     .navList a {
       text-decoration: none;
       color: white;
