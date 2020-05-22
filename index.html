@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <title>Voodoo Bloo</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='icon' href='media/favIcon.png' type='image/x-icon'/ >
     </head>
     <body>
         <style media="screen">
@@ -93,22 +94,53 @@
 
         <!-- upcoming shows -->
         <section>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
             <script src="https://widget.songkick.com/10130913/widget.js"></script>
             <a href="https://www.songkick.com/artists/10130913" class="songkick-widget" data-theme="light" data-track-button="on" data-detect-style="true" data-background-color="transparent" data-locale="en">Voodoo Bloo Show Dates</a>
-            <table id="demo"></table>
 
-            <div><p>som text</p></div>
-              <h1>hi there</h1>
-              <button>click</button>
               <script>
+                  function loadDoc() {
+                    // var xhttp = new XMLHttpRequest();
+                    // xhttp.onreadystatechange = function() {
+                    //   if (this.readyState == 4 && this.status == 200) {
+                    //     document.getElementById("demo").innerHTML = this.responseText;
+                    //   }
+                    // };
+                    // xhttp.open("GET", "https://api.songkick.com/api/3.0/artists/10130913/gigography.json?apikey=9FXv19GCGsdmTVTU", true);
+                    // xhttp.send();
 
-                xml = '<?xml version="1.0" encoding="utf-8"?><root><html><a href="#">the new link</a></html></root>';
-                $xml =$($.parseXML( xml ));
+                    function getCurrentEvents(xhttp) {
+                        console.log("Hello World!")
+                        // action goes here
+                        // $.getJSON("https://api.songkick.com/api/3.0/events.json?location=clientip&apikey=9FXv19GCGsdmTVTU&jsoncallback=?",
+                        $.getJSON("https://api.songkick.com/api/3.0/artists/10130913/calendar.json?apikey=9FXv19GCGsdmTVTU&jsoncallback=?",
+                            function(data) {
+                                // data is JSON response object
+                                console.dir(data);
 
-             $('button').on('click',function(){
-                var content = $xml.find('html:first').htmlize();
-                 $(content).appendTo('body');
-             });
+                                console.log(data.resultsPage.results.event)
+                            });
+                        }
+
+                    function getPreviousEvents(xhttp) {
+                        console.log("Hello World!")
+                        // action goes here
+                        // $.getJSON("https://api.songkick.com/api/3.0/events.json?location=clientip&apikey=9FXv19GCGsdmTVTU&jsoncallback=?",
+                        $.getJSON("https://api.songkick.com/api/3.0/artists/10130913/gigography.json?apikey=9FXv19GCGsdmTVTU",
+                            function(data) {
+                                // data is JSON response object
+                                console.dir(data);
+                                console.log(data.resultsPage.results.event)
+                            });
+                        }
+
+                        getCurrentEvents();
+
+                        getPreviousEvents();
+
+                        // console.log(resultsPage.artist);
+                        }
+                        loadDoc();
              </script>
         </section>
 

@@ -417,6 +417,13 @@ img {
   align-items: center;
   justify-content: center; }
 
+.w100h100 {
+  height: 100vh;
+  width: 100%; }
+
+.textWhite {
+  color: white; }
+
 @media screen and (min-width: 900px) {
   .container {
     padding: 0% 10%; } }
