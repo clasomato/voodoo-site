@@ -173,7 +173,11 @@
       justify-content: center; }
 
   .listItem {
-    padding: 0 20px; } }
+    padding: 0 20px; }
+
+  .navLogo {
+    text-align: center;
+    width: 50%; } }
 @media screen and (min-width: 900px) {
   .navContainer {
     flex-direction: row;
