@@ -34,3 +34,54 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 60000); // Change image every 2 seconds
 }
+
+
+
+
+
+
+
+
+
+
+// SongKick api
+function getCurrentEvents(xhttp) {
+console.log("Hello World!")
+
+// Grabbing the data
+$.getJSON("https://api.songkick.com/api/3.0/artists/10130913/calendar.json?apikey=9FXv19GCGsdmTVTU&jsoncallback=?",
+
+    function(data) {
+    // data is JSON response object
+    console.dir(data);
+
+
+    function popEvent(data) {
+        // Make the blank variables
+        var eventName;
+        var eventVenue;
+        var eventTime;
+        var eventPrice;
+
+
+        // Loop though the object bassed on the number of events e.g: 4
+        console.log(data.resultsPage.results + "<br>");
+
+        if (data.resultsPage.totalEntries.length > 1) {
+            var domEventName = document.getElementById("eventName");
+            var domEventVenue = document.getElementById("eventVenue");
+            var domEventTime = document.getElementById("eventTime");
+            var domEventPrice = document.getElementById("eventPrice");
+
+            for (var i = 0; i < data.resultsPage.totalEntries.length; i++) {
+                data.resultsPage.totalEntries[i];
+                console.log("Event loop working!")
+
+                alert(data.resultsPage.results);
+            };
+        };
+    };
+    popEvent(data);
+    });
+};
+getCurrentEvents();

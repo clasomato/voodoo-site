@@ -93,55 +93,27 @@
         </section>
 
         <!-- upcoming shows -->
-        <section>
+        <section class="container upComingContainer">
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
             <script src="https://widget.songkick.com/10130913/widget.js"></script>
-            <a href="https://www.songkick.com/artists/10130913" class="songkick-widget" data-theme="light" data-track-button="on" data-detect-style="true" data-background-color="transparent" data-locale="en">Voodoo Bloo Show Dates</a>
+            <a href="https://www.songkick.com/artists/10130913" class="songkick-widget" data-theme="light" data-track-button="on" data-detect-style="true" data-background-color="transparent" data-locale="en" target="_blank" style="text-align: center">Voodoo Bloo Show Dates</a>
 
-              <script>
-                  function loadDoc() {
-                    // var xhttp = new XMLHttpRequest();
-                    // xhttp.onreadystatechange = function() {
-                    //   if (this.readyState == 4 && this.status == 200) {
-                    //     document.getElementById("demo").innerHTML = this.responseText;
-                    //   }
-                    // };
-                    // xhttp.open("GET", "https://api.songkick.com/api/3.0/artists/10130913/gigography.json?apikey=9FXv19GCGsdmTVTU", true);
-                    // xhttp.send();
-
-                    function getCurrentEvents(xhttp) {
-                        console.log("Hello World!")
-                        // action goes here
-                        // $.getJSON("https://api.songkick.com/api/3.0/events.json?location=clientip&apikey=9FXv19GCGsdmTVTU&jsoncallback=?",
-                        $.getJSON("https://api.songkick.com/api/3.0/artists/10130913/calendar.json?apikey=9FXv19GCGsdmTVTU&jsoncallback=?",
-                            function(data) {
-                                // data is JSON response object
-                                console.dir(data);
-
-                                console.log(data.resultsPage.results.event)
-                            });
-                        }
-
-                    function getPreviousEvents(xhttp) {
-                        console.log("Hello World!")
-                        // action goes here
-                        // $.getJSON("https://api.songkick.com/api/3.0/events.json?location=clientip&apikey=9FXv19GCGsdmTVTU&jsoncallback=?",
-                        $.getJSON("https://api.songkick.com/api/3.0/artists/10130913/gigography.json?apikey=9FXv19GCGsdmTVTU",
-                            function(data) {
-                                // data is JSON response object
-                                console.dir(data);
-                                console.log(data.resultsPage.results.event)
-                            });
-                        }
-
-                        getCurrentEvents();
-
-                        getPreviousEvents();
-
-                        // console.log(resultsPage.artist);
-                        }
-                        loadDoc();
-             </script>
+            <div class="upComingShows textWhite">
+                <table style="width:100%">
+                  <tr>
+                    <th>Name</th>
+                    <th>Venue</th>
+                    <th>Time</th>
+                    <th>Price</th>
+                  </tr>
+                  <tr>
+                    <td id="eventName">Jill</td>
+                    <td id="eventVenue">Smith</td>
+                    <td id="eventTime">50</td>
+                    <td id="eventPrice">$60</td>
+                  </tr>
+                </table>
+            </div>
         </section>
 
 
