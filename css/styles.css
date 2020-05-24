@@ -274,6 +274,7 @@ a {
     justify-content: space-between; }
 
   .footerText {
+    padding-top: 0%;
     color: white;
     padding-left: 10%;
     width: 40%;
