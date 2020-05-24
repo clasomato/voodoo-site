@@ -415,7 +415,8 @@ a {
 
 @media screen and (min-width: 900px) {
   .shopContainer {
-    padding: 2% 10%; }
+    padding: 0% 10%;
+    padding-bottom: 2%; }
 
   .shopHeader {
     text-decoration: underline;
