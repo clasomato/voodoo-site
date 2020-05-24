@@ -57,27 +57,34 @@ $.getJSON("https://api.songkick.com/api/3.0/artists/10130913/calendar.json?apike
 
 
     function popEvent(data) {
+        console.log("working")
         // Make the blank variables
         var eventName;
         var eventVenue;
         var eventTime;
         var eventPrice;
 
+        console.log(data.resultsPage.totalEntries);
+
 
         // Loop though the object bassed on the number of events e.g: 4
-        console.log(data.resultsPage.results + "<br>");
+        // console.log(data.resultsPage.results + "<br>");
 
-        if (data.resultsPage.totalEntries.length > 1) {
+        if (data.resultsPage.totalEntries >= 1) {
             var domEventName = document.getElementById("eventName");
             var domEventVenue = document.getElementById("eventVenue");
             var domEventTime = document.getElementById("eventTime");
-            var domEventPrice = document.getElementById("eventPrice");
+            var domEventAge = document.getElementById("eventAge");
 
-            for (var i = 0; i < data.resultsPage.totalEntries.length; i++) {
+            for (var i = 0; i < data.resultsPage.totalEntries; i++) {
                 data.resultsPage.totalEntries[i];
                 console.log("Event loop working!")
 
-                alert(data.resultsPage.results);
+                domEventName.textContent = data.resultsPage.results.event[0].displayName;
+                domEventVenue.textContent = data.resultsPage.results.event[0].venue.displayName;
+                domEventTime.textContent = data.resultsPage.results.event[0].start.datetime;
+                domEventAge.textContent = data.resultsPage.results.event[0].ageRestriction;
+
             };
         };
     };
