@@ -397,6 +397,9 @@ a {
   padding: 15px 20px;
   position: relative; }
 
+.shopContainer {
+  padding-top: 10%; }
+
 html {
   scroll-behavior: smooth; }
 
