@@ -38,6 +38,29 @@
     padding: 5% 0%;
 }
 
+#customInstaFeed {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    a {
+        border: none !important;
+        display: flex !important;
+        padding: 0% !important;
+        margin: 0 !important;
+        width: 49% !important;
+
+        a {
+            width: 100% !important;
+        }
+    }
+
+}
+
 
 
 @media screen and (min-width:900px) {

@@ -128,7 +128,8 @@
                 <div class="row">
                     <div class="col col12 colL6">
                         <div class="socialContainer navAno">
-                            <img src="media/place.jpg" alt="" width="100%;">
+                            <!-- <img src="media/place.jpg" alt="" width="100%;"> -->
+                            <div class="" id="customInstaFeed"></div>
                             <a href="https://www.instagram.com/whoisvoodoobloo/" target="_blank">Instagram</a>
                         </div>
                     </div>
@@ -140,9 +141,16 @@
                             <a href="https://www.facebook.com/voodoobloo" target="_blank">Facebook</a>
                         </div>
                     </div>
+            </div>
+
+            <div class="row">
+                <div class="col col6">
+                    <!-- <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                    <div class="elfsight-app-b6bb9f50-e627-473a-907e-1a902e28b58d"></div> -->
 
 
-
+                    <div class="" id="customInstaFeed"></div>
+                </div>
             </div>
         </div>
         </section>
@@ -174,9 +182,58 @@
         <script src="js/script.js" charset="utf-8"></script>
 
         <!-- Plugins -->
-        <script src="js/instagramFeed.js"></script>
-        <script src="js/jquery.htmlize.js">
+        <script src="js/spectragram.js"></script>
+        <script src="js/jquery.socialfeed.js"></script>
 
+
+        <script>
+            jQuery.fn.spectragram.accessData = {
+            accessToken: 'IGQVJVU3pTS0hvLVlpazlNZAElHZA21LVUFyNng5RHJPUUs0NldzOWJoN3poMmpYUG5hVTJRNVB2V3Y5NHBNT0RTZAllrTzhCUGhGWWNsNjhMZAjlrYTFIM1BCSUxMSHhPUFZAKQ3QyYzFZAaFR6RldFYVlsZAgZDZD'
+            };
+
+            $('#customInstaFeed').spectragram({
+            	max: 4,
+            	size: "medium",
+            	wrapEachWith: "<a>"
+            });
+        </script>
+
+        <script>
+        $(document).ready(function(){
+        $('.social-feed-container').socialfeed({
+        // FACEBOOK
+        facebook:{
+          accounts:['#dolomiti'],
+          limit:2,
+          access_token:'150849908413827|a20e87978f1ac491a0c4a721c961b68c'
+        }
+
+        // GENERAL SETTINGS
+
+        // A folder in which the plugin is located (with a slash in the end)
+        plugin_folder: 'js/',
+
+        // Maximum length of post message shown
+        length:200,
+
+        // A path to the tamplate file
+        template: 'template.html',
+
+        // Show images of attachments if available
+        show_media:true,
+
+        // Moderation function - if returns false, template will have class hidden
+        moderation: function(content){
+          return  (content.text) ? content.text.indexOf('fuck') == -1 : true;
+        },
+
+        // up<a href="https://www.jqueryscript.net/time-clock/">date</a>_period: 5000,
+        // When all the posts are collected and displayed - this function is evoked
+        callback: function(){
+          console.log('all posts are collected');
+        }
+        });
+        });
         </script>
 
 
