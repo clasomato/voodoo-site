@@ -80,10 +80,18 @@ $.getJSON("https://api.songkick.com/api/3.0/artists/10130913/calendar.json?apike
                 data.resultsPage.totalEntries[i];
                 console.log("Event loop working!")
 
-                domEventName.textContent = data.resultsPage.results.event[0].displayName;
-                domEventVenue.textContent = data.resultsPage.results.event[0].venue.displayName;
-                domEventTime.textContent = data.resultsPage.results.event[0].start.datetime;
-                domEventAge.textContent = data.resultsPage.results.event[0].ageRestriction;
+                domEventName.textContent += data.resultsPage.results.event[0].displayName;
+                $( "<br>" ).appendTo( "#eventName" );
+
+                domEventVenue.textContent += data.resultsPage.results.event[0].venue.displayName;
+                $( "<br>" ).appendTo( "#eventVenue" );
+
+                domEventTime.textContent += data.resultsPage.results.event[0].start.datetime;
+                $( "<br>" ).appendTo( "#eventTime" );
+
+                domEventAge.textContent += data.resultsPage.results.event[0].ageRestriction;
+                $( "<br>" ).appendTo( "#eventAge" );
+
 
             };
         };
