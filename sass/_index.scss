@@ -71,3 +71,25 @@
         }
     }
 }
+
+
+
+
+
+
+
+// Broken CSS FIX LATER
+@media screen and (max-width:600px) {
+    #customInstaFeed {
+        img {
+            width:100%;
+        }
+        a {
+            width: 100%;
+
+            a {
+                width: 100%;
+            }
+        }
+    }
+}
