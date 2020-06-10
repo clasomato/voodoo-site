@@ -696,8 +696,15 @@ body {
 .textWhite {
   color: white; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/styles\.scss}line{font-family:\0000365}}
+.placeHolderH1 {
+  text-decoration: underline;
+  font-weight: normal;
+  text-align: left;
+  font-size: 2em; }
+
 @media screen and (min-width: 900px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/styles\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Clientsd\/Rory\%20Voodoo\%20Blue\/voodoo-site\/sass\/styles\.scss}line{font-family:\0000378}}
   .container {
     padding: 0% 10%; } }
 
