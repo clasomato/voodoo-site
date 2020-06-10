@@ -10,6 +10,18 @@
 @import "shop";
 @import "upComingShows";
 
+@font-face{
+	font-family: 'MyWebFont';
+	     src: url('fonts/lavahpro-grunge.woff') format('woff');
+
+}
+
+#noShows {
+    color: white;
+    margin: 5% 0%;
+    text-decoration: underline;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -23,6 +35,7 @@ body {
     margin: 0;
     background-color: $pColour;
     font-family: 'Open Sans', sans-serif;
+    // font-family: 'MyWebFont' !important;
 }
 
 img {
