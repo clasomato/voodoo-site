@@ -11,12 +11,6 @@
 @import "upComingShows";
 @import "contact";
 
-@font-face{
-	font-family: 'MyWebFont';
-	     src: url('fonts/lavahpro-grunge.woff') format('woff');
-
-}
-
 #noShows {
     color: white;
     margin: 5% 0%;
@@ -36,7 +30,11 @@ body {
     margin: 0;
     background-color: $pColour;
     font-family: 'Open Sans', sans-serif;
-    // font-family: 'MyWebFont' !important;
+
+}
+
+h1, h2 {
+	font-family: 'lavah_progrunge';
 }
 
 img {
