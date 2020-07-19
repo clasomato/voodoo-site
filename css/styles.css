@@ -236,10 +236,9 @@
     padding-bottom: 1%;
     color: white;
     text-decoration: underline;
-    font-size: 1.8em;
-    border-bottom: 1px solid white;
-    border-left: 1px solid white;
-    border-right: 1px solid white; }
+    font-size: 2.5em;
+    border: 1px solid white;
+    font-family: 'lavah_progrunge'; }
 
 .soundIcon {
   display: flex;
