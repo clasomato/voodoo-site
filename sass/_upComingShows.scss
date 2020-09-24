@@ -8,8 +8,15 @@
     }
 
     margin-bottom: 5%;
+
+    max-width: 100%;
+    overflow: hidden;
 }
 
+.upComingShows {
+  width: 90vw !important;
+  overflow: scroll;
+}
 .songKickLink {
     font-size: 1.3em;
     text-decoration: underline;
@@ -18,5 +25,5 @@
 
 
 @media screen and (max-width:600px) {
-    
+
 }

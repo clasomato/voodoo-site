@@ -19,9 +19,7 @@
         <meta name="google-site-verification" content="55sdss12Jr6v7vi5wE5lfeUnb9S4Qzj6JFVJSPIjeZg" />
     </head>
     <body>
-        <style media="screen">
-
-        </style>
+      <div id="app">
         <header>
             <nav id="nav" class="navbar">
                 <div class="container navContainer">
@@ -167,10 +165,12 @@
             </div>
 
         </footer>
+      </div>
 
 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
         <script src="https://kit.fontawesome.com/2d2211742d.js" crossorigin="anonymous"></script>
         <script src="js/script.js" charset="utf-8"></script>
 
@@ -180,6 +180,12 @@
 
 
         <script>
+        var app = new Vue({
+          el: '#app',
+          data: {
+            message: 'Hello Vue!'
+          }
+        })
             jQuery.fn.spectragram.accessData = {
             accessToken: 'IGQVJVU3pTS0hvLVlpazlNZAElHZA21LVUFyNng5RHJPUUs0NldzOWJoN3poMmpYUG5hVTJRNVB2V3Y5NHBNT0RTZAllrTzhCUGhGWWNsNjhMZAjlrYTFIM1BCSUxMSHhPUFZAKQ3QyYzFZAaFR6RldFYVlsZAgZDZD'
             };
@@ -190,46 +196,5 @@
             	wrapEachWith: "<a>"
             });
         </script>
-
-        <!-- <script>
-        $(document).ready(function(){
-        $('.social-feed-container').socialfeed({
-        // FACEBOOK
-        facebook:{
-          accounts:['#dolomiti'],
-          limit:2,
-          access_token:'150849908413827|a20e87978f1ac491a0c4a721c961b68c'
-        }
-
-        // GENERAL SETTINGS
-
-        // A folder in which the plugin is located (with a slash in the end)
-        plugin_folder: 'js/',
-
-        // Maximum length of post message shown
-        length:200,
-
-        // A path to the tamplate file
-        template: 'template.html',
-
-        // Show images of attachments if available
-        show_media:true,
-
-        // Moderation function - if returns false, template will have class hidden
-        moderation: function(content){
-          return  (content.text) ? content.text.indexOf('fuck') == -1 : true;
-        },
-
-        // up<a href="https://www.jqueryscript.net/time-clock/">date</a>_period: 5000,
-        // When all the posts are collected and displayed - this function is evoked
-        callback: function(){
-          console.log('all posts are collected');
-        }
-        });
-        });
-        </script> -->
-
-
-
     </body>
 </html>

@@ -468,12 +468,18 @@ a {
     padding-top: 13%;
     font-size: 1.8em; } }
 .upcomingTable {
-  margin-bottom: 5%; }
+  margin-bottom: 5%;
+  max-width: 100%;
+  overflow: hidden; }
   .upcomingTable tr {
     text-align: left; }
     .upcomingTable tr td {
       border-right: 1px solid white;
       border-left: 1px solid white; }
+
+.upComingShows {
+  width: 90vw !important;
+  overflow: scroll; }
 
 .songKickLink {
   font-size: 1.3em;
